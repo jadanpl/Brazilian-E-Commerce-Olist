@@ -8,6 +8,13 @@ E-commerce provides an easy way to sell products to a large customer base. To ta
 * To predict future sales with purchase date information.
 
 ## Dataset
-real-world datasets provided by <a href='https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?datasetId=55151&sortBy=voteCount&searchQuery=rfm'>Olist on Kaggle</a>. The dataset has information of orders from 2016 to 2018 made at multiple marketplaces in Brazil.
+Real-world datasets provided by <a href='https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?datasetId=55151&sortBy=voteCount&searchQuery=rfm'>Olist on Kaggle</a> that has information of orders from 2016 to 2018 made at multiple marketplaces in Brazil.
 
-## Results
+## Findings
+1. The customers and sellers of Olist are mainly distributed in the southeast and south of the Brazil.
+2. More than 50% of the items is rated as 5. Based on the wordclouds that display the negative words, the reasons that led to low review scores could be low quality (wrong/ torn/ broken/ dirty/ missing) items, delayed delivery, and others.
+3. Based on the visualization that displays the frequent locations (from the source city to destination city), the range for median of the freight values is between 2.32 and 3.29. From the heatmap plotted, the freight value is positively correlated with product weight and product volume.
+
+## Recommendations
+1.  Methods such as the Recurrent Neural Networks (LSTM) or Facebook's Prophet could be used to perform time series analysis on the sales data.
+2.  Other unsupervised learing algorithm such as DBCAN or hierarchical clustering ould be used to perform customer segmentation.
