@@ -9,7 +9,6 @@ E-commerce provides an easy way to sell products to a large customer base. To ta
 
 ## Dataset
 Real-world datasets provided by <a href='https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?datasetId=55151&sortBy=voteCount&searchQuery=rfm'>Olist on Kaggle</a> that has information of orders from 2016 to 2018 made at multiple marketplaces in Brazil.
-<img src='https://i.imgur.com/HRhd2Y0.png'>
 
 ## Findings
 1. The customers and sellers of Olist are mainly distributed in the southeast and south of the Brazil.
